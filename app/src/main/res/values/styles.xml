@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Angoor" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">@color/angoor_accent</item>
+        <item name="android:navigationBarColor">@color/angoor_white</item>
+        <item name="android:statusBarColor">@color/angoor_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/angoor_white</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowDisablePreview">false</item>
+    </style>
+
+    <style name="Theme.Angoor.Alarm" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/angoor_purple</item>
+        <item name="android:navigationBarColor">@color/angoor_purple</item>
+        <item name="android:statusBarColor">@color/angoor_purple</item>
+        <item name="android:colorAccent">@color/angoor_accent</item>
+    </style>
+</resources>

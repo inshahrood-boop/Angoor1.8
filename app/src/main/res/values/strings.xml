@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Angoor</string>
+    <string name="notification_channel_name">یادآورهای انگور</string>
+    <string name="notification_channel_description">اعلان و آلارم یادآورهای ثبت‌شده در انگور</string>
+    <string name="notification_confirm">تأیید</string>
+    <string name="alarm_title">یادآور انگور</string>
+    <string name="alarm_confirm">تأیید و قطع آلارم</string>
+    <string name="download_channel_name">دانلودهای انگور</string>
+    <string name="download_channel_description">اعلان ذخیره و بازکردن فایل‌های خروجی انگور</string>
+    <string name="download_complete_title">دانلود فایل کامل شد</string>
+</resources>

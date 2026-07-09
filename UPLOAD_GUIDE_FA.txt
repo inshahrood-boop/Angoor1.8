@@ -1,0 +1,10 @@
+راهنمای آپلود کامل پروژه انگور در GitHub
+
+1) فایل ZIP را Extract کنید.
+2) در Windows Explorer از View > Show گزینه Hidden items را روشن کنید.
+3) تمام فایل‌ها و پوشه‌ها، مخصوصاً پوشه مخفی .github، را در ریشه مخزن GitHub آپلود کنید.
+4) مسیر فایل Workflow باید دقیقاً این باشد:
+   .github/workflows/build-apk.yml
+5) بعد از Commit، وارد Actions شوید و اجرای «ساخت APK انگور» را باز کنید.
+6) پس از سبزشدن اجرا، Artifact با نام Angoor-APK را دانلود کنید.
+7) اگر اجرا قرمز شد، Artifact با نام Angoor-Build-Logs را دانلود کنید.

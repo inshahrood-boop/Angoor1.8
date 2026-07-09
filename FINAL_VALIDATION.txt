@@ -1,0 +1,26 @@
+Angoor Android 1.8.0 — Final static validation
+Date: 2026-07-09
+
+Applied fixes:
+1. Launcher icon rebuilt from the supplied purple square artwork with a safe adaptive foreground and non-cropped legacy icons.
+2. Android launcher label is English: Angoor.
+3. Native speech windows: 10 seconds for transaction entry and 20 seconds for review confirmation/cancellation.
+4. WebView is inset inside Android status/navigation bars and display cutouts.
+5. PDF files are saved to Downloads, trigger a completion notification, and are opened immediately when a PDF viewer exists.
+6. Default application theme is light/white, including Android system bars.
+7. Income/expense trend chart is responsive, width-safe, and uses bounded redraw retries.
+8. Version updated to 1.8.0 (versionCode 18).
+
+Validation passed:
+- Required repository files and GitHub Actions workflow present.
+- 12 Android XML files parsed successfully.
+- All AndroidManifest component classes found.
+- Inline JavaScript passed node --check.
+- Java source lexical brace/string/comment validation passed.
+- Android bridge markers, native speech windows, downloads, system insets, alarm and biometric flows present.
+- Launcher/adaptive icon PNG dimensions validated.
+- Gradle wrapper JAR structure validated.
+- No legacy Dantal branding remains.
+
+Build note:
+A full Android assemble was not run in this container because Android SDK is not installed here. The included GitHub Actions workflow installs SDK 36, validates the project, builds the APK, uploads Angoor-APK on success, and always uploads Angoor-Build-Logs.
